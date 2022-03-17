@@ -1,30 +1,28 @@
-# **[Laravelium Sitemap](https://laravelium.com) package**
+# **Sitemap**
 
-[![License](https://poser.pugx.org/laravelium/sitemap/license)](https://packagist.org/packages/laravelium/sitemap) [![PHP tests](https://github.com/Laravelium/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master)](https://github.com//Laravelium/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22) [![Maintainability](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability)](https://codeclimate.com/github/Laravelium/laravel-sitemap/maintainability) [![Test Coverage](https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage)](https://codeclimate.com/github/Laravelium/laravel-sitemap/test_coverage) [![Style Status](https://github.styleci.io/repos/10392044/shield?style=normal&branch=master)](https://github.styleci.io/repos/10392044) [![Latest Stable Version](https://poser.pugx.org/laravelium/sitemap/v/stable)](https://packagist.org/packages/laravelium/sitemap) [![Total Downloads](https://poser.pugx.org/laravelium/sitemap/downloads)](https://packagist.org/packages/laravelium/sitemap)
+[//]: # ([![License]&#40;https://poser.pugx.org/laravelium/sitemap/license&#41;]&#40;https://packagist.org/packages/laravelium/sitemap&#41; [![PHP tests]&#40;https://github.com/Laravelium/laravel-sitemap/workflows/PHP%20tests/badge.svg?branch=master&#41;]&#40;https://github.com//Laravelium/laravel-sitemap/actions?query=workflow%3A%22PHP+tests%22&#41; [![Maintainability]&#40;https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/maintainability&#41;]&#40;https://codeclimate.com/github/Laravelium/laravel-sitemap/maintainability&#41; [![Test Coverage]&#40;https://api.codeclimate.com/v1/badges/c7b8c0079addb1217836/test_coverage&#41;]&#40;https://codeclimate.com/github/Laravelium/laravel-sitemap/test_coverage&#41; [![Style Status]&#40;https://github.styleci.io/repos/10392044/shield?style=normal&branch=master&#41;]&#40;https://github.styleci.io/repos/10392044&#41; [![Latest Stable Version]&#40;https://poser.pugx.org/laravelium/sitemap/v/stable&#41;]&#40;https://packagist.org/packages/laravelium/sitemap&#41; [![Total Downloads]&#40;https://poser.pugx.org/laravelium/sitemap/downloads&#41;]&#40;https://packagist.org/packages/laravelium/sitemap&#41;)
 
-*Laravelium Sitemap generator for Laravel.*
-
-## Notes
-
-- Dev Branches are for development and are **UNSTABLE** (*use on your own risk*)!
+Sitemap package for Laravel. forked from laravelium sitemap package.
 
 ## Installation
 
-Run the following command and provide the latest stable version (e.g v8.\*) :
+Run the following command and provide the latest stable version (e.g v9.\*) :
 
 ```bash
-composer require laravelium/sitemap
+composer require farshidrezaei/sitemap
 ```
 
 *or add the following to your `composer.json` file :*
 
+#### For Laravel 9
+```json
+"laravelium/sitemap": "9.*"
+```
+
+
 #### For Laravel 8
 ```json
 "laravelium/sitemap": "8.*"
-```
-(development branch)
-```json
-"laravelium/sitemap": "8.x-dev"
 ```
 
 #### For Laravel 7
