@@ -1,5 +1,5 @@
 {
-    "name": "farshidrezaei/sitemap",
+    "name": "farshidrezaei/laravel-sitemap",
     "description": "Sitemap package for Laravel. forked from laravelium sitemap package",
     "homepage": "https://farshidrezaei.ir",
     "keywords": ["farshidrezaei", "laravel", "php", "sitemap", "generator", "xml", "html", "google-news"],
